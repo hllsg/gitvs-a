@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     open: true,
-    
+    browser: 'chrome'
   }
 });
